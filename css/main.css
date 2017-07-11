@@ -91,8 +91,7 @@ aside {
   font-weight: 700;
   text-transform: uppercase;
 }
-.navbar-default .navbar-header .navbar-brand:hover,
-.navbar-default .navbar-header .navbar-brand:focus {
+.navbar-default .navbar-header .navbar-brand:hover {
   color: #CC89D3;
 }
 .navbar-default .navbar-header .navbar-toggle {
@@ -246,7 +245,7 @@ header .header-content .header-content-inner p {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 500px;
   margin: 0 auto;
 }
 .portfolio-box .portfolio-box-caption {
@@ -372,10 +371,11 @@ fieldset[disabled] .btn-default.active {
   color: white;
   background-color: #CC89D3;
 }
-.btn-primary:active,
+.btn-primary:active:hover,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   background-image: none;
+  background-color: #913A9A;
 }
 .btn-primary.disabled,
 .btn-primary[disabled],
